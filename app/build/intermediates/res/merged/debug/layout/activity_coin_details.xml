@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_change_collection"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@color/white"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="9999"
+            android:padding="5dp"
+            android:id="@+id/coinDetailsid"
+            android:textAlignment="center"
+            android:drawableLeft="@mipmap/clip"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="50dp">
+
+        </TextView>
+    </android.support.v7.widget.LinearLayoutCompat>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:text="HOUR BONUS"
+            android:padding="5dp"
+            android:background="@drawable/blackoutwhitein"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:fontFamily="serif"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_height="wrap_content" />
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="10 "
+                android:padding="5dp"
+                android:id="@+id/coinTime"
+                android:textAlignment="center"
+                android:drawableLeft="@mipmap/clip"
+                android:background="@drawable/blackoutwhitein"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                android:onClick="coinClick"
+                android:textSize="30dp">
+            </TextView>
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_gravity="center"
+                android:layout_width="180dp"
+                android:background="@color/colorPrimary"
+                android:layout_height="match_parent"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:gravity="center_vertical"
+                    android:id="@+id/countDownid"
+                    android:fontFamily="serif"
+                    android:text="COLLECT"
+                    android:onClick="collectClickHour"
+                    android:textSize="30dp">
+                </TextView>
+            </android.support.v7.widget.LinearLayoutCompat>
+
+
+
+        </android.support.v7.widget.LinearLayoutCompat>
+        </android.support.v7.widget.LinearLayoutCompat>
+
+
+
+
+</LinearLayout>

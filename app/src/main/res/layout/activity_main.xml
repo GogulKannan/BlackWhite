@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.example.gogul.adandroid.MainActivity"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:paddingTop="0dp">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10px"
+        />
+
+   <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+       android:layout_gravity="right"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/darkblack"
+            android:textSize="20dp">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="9999"
+            android:padding="5dp"
+            android:id="@+id/coinId"
+            android:textAlignment="center"
+            android:drawableLeft="@mipmap/clip"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:onClick="coinClick"
+            android:textSize="35dp">
+
+        </TextView>
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BLACK"
+        android:textSize="80dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:paddingBottom="0dp"
+        android:background="@color/colorPrimaryDark"
+        android:fontFamily="serif"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WHITE"
+        android:textSize="80dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/white"
+        android:fontFamily="serif"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50px"
+        />
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text="Play"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mybutton"
+            android:textColor="@color/white"
+            android:textSize="50px"
+            android:id="@+id/button"
+            android:onClick="login"
+            android:textStyle="bold"
+            android:elevation="24dp" />
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <TextView
+        android:text="MENU"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="50px"
+        android:id="@+id/menuHomeid"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:onClick="menuClick"
+       />
+
+</LinearLayout>
