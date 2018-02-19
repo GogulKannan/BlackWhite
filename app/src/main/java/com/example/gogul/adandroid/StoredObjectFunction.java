@@ -46,6 +46,7 @@ public class StoredObjectFunction implements Serializable {
         list.add(new LevelDetails("1","Level: 10","Locked"));
         so.setListLevelDetails(list);
         so.setTimeLeftHour(System.currentTimeMillis());
+        so.setTimeLeftDay(System.currentTimeMillis());
         so.setCoins(50);
         return so;
 

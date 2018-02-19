@@ -5,40 +5,37 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="92006072315830"
+    timestamp="178363178820872"
     token="-8504305474150625831"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="162" />
+        duration="591" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="51" />
+        duration="107" />
     <task
         name="verifier"
-        duration="3" />
+        duration="7" />
 
     <artifact
         location="E:\project\HomeApp\BlackWhite\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
         type="DEX" />
 
     <build
-        timestamp="88598808915298"
-        verifier="MANIFEST_FILE_CHANGE" >
+        timestamp="177157484464192"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="E:\project\HomeApp\BlackWhite\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="91667275350462"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="E:\project\HomeApp\BlackWhite\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-            type="RESOURCES" />
+        timestamp="177334235615864"
+        verifier="R_CLASS_CHANGE" >
         <artifact
             location="E:\project\HomeApp\BlackWhite\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
             type="DEX" />
@@ -50,7 +47,14 @@
             type="DEX" />
     </build>
     <build
-        timestamp="92006072315830"
+        timestamp="178195006215092"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="E:\project\HomeApp\BlackWhite\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+            type="RESOURCES" />
+    </build>
+    <build
+        timestamp="178363178820872"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="E:\project\HomeApp\BlackWhite\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"

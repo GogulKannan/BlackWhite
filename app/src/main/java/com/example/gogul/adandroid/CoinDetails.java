@@ -22,11 +22,15 @@ import java.util.Date;
 public class CoinDetails extends AppCompatActivity {
 
     static  Long timerTime= Long.valueOf(30000);
+    static  Long timerTimeday= Long.valueOf(60000);
     SharedPreferences pref;
     TextView showCoin;
     StoredObject so;
     TextView countDown;
+    TextView countDownday;
     CountDownTimer cTimer = null;
+    CountDownTimer cTimerday = null;
+
     Serializable comingFrom;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,7 +42,9 @@ public class CoinDetails extends AppCompatActivity {
         so = (StoredObject) i.getSerializableExtra("MyObject");
         showCoin = (TextView) findViewById(R.id.coinDetailsid);
         countDown = (TextView) findViewById(R.id.countDownid);
+        countDownday = (TextView) findViewById(R.id.countDownDayid);
         showCoin.setText(String.valueOf(so.getCoins()));
+
         Long timerNow = shouldTimerRun();
         Log.e("time0", String.valueOf(timerNow));
         if (timerNow == 0) {
@@ -47,11 +53,20 @@ public class CoinDetails extends AppCompatActivity {
         } else {
             startTimer(timerNow);
         }
+
+        Long timerNowday = shouldTimerRunday();
+        Log.e("time0", String.valueOf(timerNowday));
+        if (timerNowday == 0) {
+            countDownday.setTextSize(30);
+            countDownday.setText("COLLECT");
+        } else {
+            startTimerday(timerNowday);
+        }
         comingFrom =getIntent().getSerializableExtra("from");
     }
 
 
-    //start timer function
+    //start timer function hour
     void startTimer(Long timeLeft) {
         cTimer = new CountDownTimer(timeLeft, 1000) {
             public void onTick(long millisUntilFinished) {
@@ -74,6 +89,28 @@ public class CoinDetails extends AppCompatActivity {
             cTimer.cancel();
     }
 
+    void startTimerday(Long timeLeft) {
+        cTimerday = new CountDownTimer(timeLeft, 1000) {
+            public void onTick(long millisUntilFinished) {
+                long seconds = millisUntilFinished / 1000;
+                String show = String.format("%02d:%02d:%02d", (seconds / (1000 * 60 * 60)), seconds / 60, seconds % 60);
+                countDownday.setTextSize(20);
+                countDownday.setText("Collect in: " + show);
+            }
+            public void onFinish() {
+                countDownday.setTextSize(30);
+                countDownday.setText("COLLECT");
+                cancelTimerday();
+            }
+        };
+        cTimerday.start();
+    }
+    //cancel timer
+    void cancelTimerday() {
+        if(cTimerday!=null)
+            cTimerday.cancel();
+    }
+
      public void collectClickHour(View v )
      {
          if(countDown.getText().equals("COLLECT")) {
@@ -92,16 +129,27 @@ public class CoinDetails extends AppCompatActivity {
         Long diff = (present>old)?(present-old):0;
         Long send = diff>timerTime?0:(timerTime-diff);
 
-        Log.e("old", String.valueOf(old));
-        Log.e("timerTime", String.valueOf(timerTime));
-        Log.e("send", String.valueOf(send));
-        Log.e("diff", String.valueOf(diff));
-        Log.e("present", String.valueOf(present));
+        return send;
+    }
+    public Long shouldTimerRunday()
+    {   Long present = System.currentTimeMillis();
+        Long old = so.getTimeLeftDay()!=null?so.getTimeLeftDay():0;
+        Long diff = (present>old)?(present-old):0;
+        Long send = diff>timerTimeday?0:(timerTimeday-diff);
 
         return send;
     }
-
-
+    public void collectClickDay(View v )
+    {
+        if(countDownday.getText().equals("COLLECT")) {
+            int now = so.getCoins();
+            int newNow = now+50;
+            so.setCoins(newNow);
+            so.setTimeLeftDay(System.currentTimeMillis());
+            showCoin.setText(String.valueOf(newNow));
+            startTimerday(timerTimeday);
+        }
+    }
 
 
 

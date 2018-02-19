@@ -18,6 +18,7 @@ public class StoredObject implements Serializable {
     static final long serialVersionUID = 0L;
     private int coins = 0;
     private Long timeLeftHour;
+    private Long timeLeftDay;
     private List<LevelDetails> listLevelDetails = new ArrayList<LevelDetails>();
 
    // private LinkedHashMap<String, levelStage> isLevelCompleted = new LinkedHashMap<String, levelStage>();
@@ -46,5 +47,13 @@ public class StoredObject implements Serializable {
 
     public void setTimeLeftHour(Long timeLeftHour) {
         this.timeLeftHour = timeLeftHour;
+    }
+
+    public Long getTimeLeftDay() {
+        return timeLeftDay;
+    }
+
+    public void setTimeLeftDay(Long timeLeftDay) {
+        this.timeLeftDay = timeLeftDay;
     }
 }
