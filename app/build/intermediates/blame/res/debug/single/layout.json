@@ -56,16 +56,16 @@
         "source": "E:\\project\\HomeApp\\BlackWhite\\app\\src\\main\\res\\layout\\activity_levels.xml"
     },
     {
-        "merged": "E:\\project\\HomeApp\\BlackWhite\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "E:\\project\\HomeApp\\BlackWhite\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_template_part_time.xml"
+        "merged": "E:\\project\\HomeApp\\BlackWhite\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_game_mode.xml",
+        "source": "E:\\project\\HomeApp\\BlackWhite\\app\\src\\main\\res\\layout\\activity_game_mode.xml"
     },
     {
         "merged": "E:\\project\\HomeApp\\BlackWhite\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
         "source": "E:\\project\\HomeApp\\BlackWhite\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\select_dialog_item_material.xml"
     },
     {
-        "merged": "E:\\project\\HomeApp\\BlackWhite\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_game_mode.xml",
-        "source": "E:\\project\\HomeApp\\BlackWhite\\app\\src\\main\\res\\layout\\activity_game_mode.xml"
+        "merged": "E:\\project\\HomeApp\\BlackWhite\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "E:\\project\\HomeApp\\BlackWhite\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_template_part_time.xml"
     },
     {
         "merged": "E:\\project\\HomeApp\\BlackWhite\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",

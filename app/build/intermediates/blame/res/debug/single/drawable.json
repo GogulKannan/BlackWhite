@@ -1,27 +1,27 @@
 [
     {
-        "merged": "E:\\project\\HomeApp\\BlackWhite\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
-        "source": "E:\\project\\HomeApp\\BlackWhite\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
-    },
-    {
         "merged": "E:\\project\\HomeApp\\BlackWhite\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_dark.xml",
         "source": "E:\\project\\HomeApp\\BlackWhite\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.2\\res\\drawable\\common_plus_signin_btn_text_dark.xml"
     },
     {
-        "merged": "E:\\project\\HomeApp\\BlackWhite\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mybutton.xml",
-        "source": "E:\\project\\HomeApp\\BlackWhite\\app\\src\\main\\res\\drawable\\mybutton.xml"
+        "merged": "E:\\project\\HomeApp\\BlackWhite\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "E:\\project\\HomeApp\\BlackWhite\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
     },
     {
         "merged": "E:\\project\\HomeApp\\BlackWhite\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
         "source": "E:\\project\\HomeApp\\BlackWhite\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_dialog_material_background.xml"
     },
     {
-        "merged": "E:\\project\\HomeApp\\BlackWhite\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\blackoutwhitein.xml",
-        "source": "E:\\project\\HomeApp\\BlackWhite\\app\\src\\main\\res\\drawable\\blackoutwhitein.xml"
+        "merged": "E:\\project\\HomeApp\\BlackWhite\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mybutton.xml",
+        "source": "E:\\project\\HomeApp\\BlackWhite\\app\\src\\main\\res\\drawable\\mybutton.xml"
     },
     {
         "merged": "E:\\project\\HomeApp\\BlackWhite\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
         "source": "E:\\project\\HomeApp\\BlackWhite\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\project\\HomeApp\\BlackWhite\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\blackoutwhitein.xml",
+        "source": "E:\\project\\HomeApp\\BlackWhite\\app\\src\\main\\res\\drawable\\blackoutwhitein.xml"
     },
     {
         "merged": "E:\\project\\HomeApp\\BlackWhite\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_dark.xml",
@@ -36,12 +36,12 @@
         "source": "E:\\project\\HomeApp\\BlackWhite\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.2\\res\\drawable\\common_plus_signin_btn_text_light.xml"
     },
     {
-        "merged": "E:\\project\\HomeApp\\BlackWhite\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "E:\\project\\HomeApp\\BlackWhite\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
-    },
-    {
         "merged": "E:\\project\\HomeApp\\BlackWhite\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
         "source": "E:\\project\\HomeApp\\BlackWhite\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "E:\\project\\HomeApp\\BlackWhite\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "E:\\project\\HomeApp\\BlackWhite\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
     },
     {
         "merged": "E:\\project\\HomeApp\\BlackWhite\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
@@ -56,12 +56,12 @@
         "source": "E:\\project\\HomeApp\\BlackWhite\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
-        "merged": "E:\\project\\HomeApp\\BlackWhite\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "E:\\project\\HomeApp\\BlackWhite\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_textfield_search_material.xml"
-    },
-    {
         "merged": "E:\\project\\HomeApp\\BlackWhite\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
         "source": "E:\\project\\HomeApp\\BlackWhite\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "E:\\project\\HomeApp\\BlackWhite\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "E:\\project\\HomeApp\\BlackWhite\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
         "merged": "E:\\project\\HomeApp\\BlackWhite\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
@@ -202,6 +202,10 @@
     {
         "merged": "E:\\project\\HomeApp\\BlackWhite\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\inblack.xml",
         "source": "E:\\project\\HomeApp\\BlackWhite\\app\\src\\main\\res\\drawable\\inblack.xml"
+    },
+    {
+        "merged": "E:\\project\\HomeApp\\BlackWhite\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mybuttonwhite.xml",
+        "source": "E:\\project\\HomeApp\\BlackWhite\\app\\src\\main\\res\\drawable\\mybuttonwhite.xml"
     },
     {
         "merged": "E:\\project\\HomeApp\\BlackWhite\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
