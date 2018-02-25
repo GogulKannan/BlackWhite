@@ -5,8 +5,6 @@ import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -63,7 +61,7 @@ public class GameMode extends AppCompatActivity {
     }
     public void learnClick(View v) {
         SharedPreferences.Editor editor = pref.edit();
-        Intent intent = new Intent(this, PlayBoxLevelEasy.class);
+        Intent intent = new Intent(this, PlayBoxLevelLearn.class);
         intent.putExtra("MyObject",so);
         startActivity(intent);
         // finishAffinity();

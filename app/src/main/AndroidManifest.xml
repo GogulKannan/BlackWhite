@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:windowSoftInputMode="adjustPan">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity" android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -30,11 +30,11 @@
 
 
 
-        <activity android:name=".GameMode" />
-        <activity android:name=".CoinDetails" />
-        <activity android:name=".Levels" />
-        <activity android:name=".PlayBoxLevelEasy" />
-        <activity android:name=".Settings"></activity>
+        <activity android:name=".GameMode" android:screenOrientation="portrait"/>
+        <activity android:name=".CoinDetails" android:screenOrientation="portrait" />
+        <activity android:name=".Levels" android:screenOrientation="portrait"/>
+        <activity android:name=".PlayBoxLevelLearn" android:screenOrientation="portrait" />
+        <activity android:name=".Settings" android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>

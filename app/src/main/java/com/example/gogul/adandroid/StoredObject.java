@@ -19,7 +19,10 @@ public class StoredObject implements Serializable {
     private int coins = 0;
     private Long timeLeftHour;
     private Long timeLeftDay;
+    private boolean soundOn;
     private List<LevelDetails> listLevelDetails = new ArrayList<LevelDetails>();
+
+    private int[][] currentLearnBox = new int[2][2];
 
    // private LinkedHashMap<String, levelStage> isLevelCompleted = new LinkedHashMap<String, levelStage>();
     //  public enum LevelStage {completed, notCompleted, nowplaying, locked};
@@ -31,6 +34,14 @@ public class StoredObject implements Serializable {
 
     public void setListLevelDetails(List<LevelDetails> listLevelDetails) {
         this.listLevelDetails = listLevelDetails;
+    }
+
+    public boolean isSoundOn() {
+        return soundOn;
+    }
+
+    public void setSoundOn(boolean soundOn) {
+        this.soundOn = soundOn;
     }
 
     public int getCoins() {
@@ -55,5 +66,13 @@ public class StoredObject implements Serializable {
 
     public void setTimeLeftDay(Long timeLeftDay) {
         this.timeLeftDay = timeLeftDay;
+    }
+
+    public int[][] getCurrentLearnBox() {
+        return currentLearnBox;
+    }
+
+    public void setCurrentLearnBox(int[][] currentLearnBox) {
+        this.currentLearnBox = currentLearnBox;
     }
 }

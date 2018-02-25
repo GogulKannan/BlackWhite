@@ -28,7 +28,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:windowSoftInputMode="adjustPan" >
-        <activity android:name="com.example.gogul.adandroid.MainActivity" >
+        <activity
+            android:name="com.example.gogul.adandroid.MainActivity"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -43,11 +45,21 @@
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
-        <activity android:name="com.example.gogul.adandroid.GameMode" />
-        <activity android:name="com.example.gogul.adandroid.CoinDetails" />
-        <activity android:name="com.example.gogul.adandroid.Levels" />
-        <activity android:name="com.example.gogul.adandroid.PlayBoxLevelEasy" />
-        <activity android:name="com.example.gogul.adandroid.Settings" />
+        <activity
+            android:name="com.example.gogul.adandroid.GameMode"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.gogul.adandroid.CoinDetails"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.gogul.adandroid.Levels"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.gogul.adandroid.PlayBoxLevelEasy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.gogul.adandroid.Settings"
+            android:screenOrientation="portrait" />
 
         <receiver
             android:name="com.google.android.gms.measurement.AppMeasurementReceiver"

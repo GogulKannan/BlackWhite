@@ -5,10 +5,8 @@ import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.Button;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 import android.widget.TextView;
@@ -48,7 +46,7 @@ public class Levels extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 LevelDetails listItem = (LevelDetails) lv.getItemAtPosition(position);
-                Intent intent = new Intent(getApplicationContext(), PlayBoxLevelEasy.class);
+                Intent intent = new Intent(getApplicationContext(), PlayBoxLevelLearn.class);
                 String levelNumber=listItem.get("LevelNumber");
                 intent.putExtra("levelNumber", levelNumber);
                 intent.putExtra("MyObject",so);

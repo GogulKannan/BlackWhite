@@ -1,6 +1,10 @@
 package com.example.gogul.adandroid;
 
+import android.content.Context;
+import android.media.MediaPlayer;
+import android.net.Uri;
 import android.util.Log;
+import android.widget.Toast;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -48,6 +52,7 @@ public class StoredObjectFunction implements Serializable {
         so.setTimeLeftHour(System.currentTimeMillis());
         so.setTimeLeftDay(System.currentTimeMillis());
         so.setCoins(50);
+        so.setSoundOn(true);
         return so;
 
     }
@@ -96,6 +101,33 @@ public class StoredObjectFunction implements Serializable {
     }
 
 
+        public static MediaPlayer myMediaPlayer;
+        public void SoundPlayer(Context c){
+            myMediaPlayer =new MediaPlayer();
+            String filename = "android.resource://" + c.getPackageName() + "/raw/black";
+            try {
+                myMediaPlayer.setDataSource(c, Uri.parse(filename));
+                myMediaPlayer.setLooping(true);
+                myMediaPlayer.prepareAsync();
+            } catch (IOException e) {
+                Toast.makeText(c, "mp3 not found", Toast.LENGTH_SHORT).show();
+                e.printStackTrace();
+            }
+
+            //mp3 will be started after completion of preparing...
+            myMediaPlayer.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
+                @Override
+                public void onPrepared(MediaPlayer player) {
+                    player.start();
+                }
+            });
+
+    }
+
+    public void stopSound()
+    {
+        myMediaPlayer.release();
+    }
 
 
     public boolean isFirstTimeLoad() {
@@ -105,4 +137,21 @@ public class StoredObjectFunction implements Serializable {
     public void setFirstTimeLoad(boolean firstTimeLoad) {
         this.firstTimeLoad = firstTimeLoad;
     }
+
+
+
+    // change the row/column according
+    public int[][] changeIt(int[][] box, int x, int y) {
+
+        for (int j = 0; j < box[0].length; j++) {
+            for (int i = 0; i < box.length; i++) {
+                if (x == j || y == i) {
+                    box[j][i] = (box[j][i] == 1) ? 0 : 1;
+                }
+            }
+        }
+        return box;
     }
+
+}
+
