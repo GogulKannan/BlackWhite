@@ -59,8 +59,8 @@ public class MainActivity extends AppCompatActivity {
 
             if(so.isSoundOn())
                 sof.SoundPlayer(this);
-            else
-                sof.stopSound();
+//            else
+//                sof.stopSound();
         }
 
 
@@ -96,16 +96,6 @@ public class MainActivity extends AppCompatActivity {
         // finishAffinity();
 
     }
-    @Override
-    protected void onStop() {
-        super.onPause();
-        sof.myMediaPlayer.pause();
-    }
 
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        sof.myMediaPlayer.pause();
-    }
 
 }

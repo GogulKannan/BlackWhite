@@ -1,6 +1,26 @@
 [
     {
+        "merged": "E:\\project\\HomeApp\\BlackWhite\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\help.png",
+        "source": "E:\\project\\HomeApp\\BlackWhite\\app\\src\\main\\res\\mipmap-xxxhdpi\\help.png"
+    },
+    {
+        "merged": "E:\\project\\HomeApp\\BlackWhite\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\meu.png",
+        "source": "E:\\project\\HomeApp\\BlackWhite\\app\\src\\main\\res\\mipmap-xxxhdpi\\meu.png"
+    },
+    {
+        "merged": "E:\\project\\HomeApp\\BlackWhite\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\reset.png",
+        "source": "E:\\project\\HomeApp\\BlackWhite\\app\\src\\main\\res\\mipmap-xxxhdpi\\reset.png"
+    },
+    {
         "merged": "E:\\project\\HomeApp\\BlackWhite\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\clip.png",
         "source": "E:\\project\\HomeApp\\BlackWhite\\app\\src\\main\\res\\mipmap-xxxhdpi\\clip.png"
+    },
+    {
+        "merged": "E:\\project\\HomeApp\\BlackWhite\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\hint.png",
+        "source": "E:\\project\\HomeApp\\BlackWhite\\app\\src\\main\\res\\mipmap-xxxhdpi\\hint.png"
+    },
+    {
+        "merged": "E:\\project\\HomeApp\\BlackWhite\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\back.png",
+        "source": "E:\\project\\HomeApp\\BlackWhite\\app\\src\\main\\res\\mipmap-xxxhdpi\\back.png"
     }
 ]

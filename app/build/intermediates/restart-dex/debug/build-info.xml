@@ -5,9 +5,9 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="60124588021064"
+    timestamp="397885820637136"
     token="-8504305474150625831"
-    verifier="MANIFEST_FILE_CHANGE" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
@@ -22,16 +22,38 @@
         name="verifier"
         duration="0" />
 
-    <artifact
-        location="E:\project\HomeApp\BlackWhite\app\build\outputs\apk\app-debug.apk"
-        type="MAIN" />
-
     <build
-        timestamp="60124588021064"
-        verifier="MANIFEST_FILE_CHANGE" >
+        timestamp="396713311259107"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="E:\project\HomeApp\BlackWhite\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
+    <build
+        timestamp="397472447720560"
+        verifier="R_CLASS_CHANGE" >
+        <artifact
+            location="E:\project\HomeApp\BlackWhite\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
+            type="DEX" />
+        <artifact
+            location="E:\project\HomeApp\BlackWhite\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
+            type="DEX" />
+        <artifact
+            location="E:\project\HomeApp\BlackWhite\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+            type="DEX" />
+        <artifact
+            location="E:\project\HomeApp\BlackWhite\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="397741838591341"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="E:\project\HomeApp\BlackWhite\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+            type="RESOURCES" />
+    </build>
+    <build
+        timestamp="397885820637136"
+        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

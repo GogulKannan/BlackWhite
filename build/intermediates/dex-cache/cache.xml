@@ -43,7 +43,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="ede618c59b3fdbce60a6bdeaaa5d9df64a4b5602">
+        sha1="3f340f395d350832f1d65c247f47fc0204483313">
         <dex dex="E:\project\HomeApp\BlackWhite\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_6e9bb51e932ba36842e4b3091f5ab5aaab501957\classes.dex" />
     </item>
     <item
@@ -79,17 +79,8 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="33624cce2e4b05c28e2d7a73795bb036c67d2eea">
+        sha1="c24f5e6d53466c877a907091223c7d4239e4ebcb">
         <dex dex="E:\project\HomeApp\BlackWhite\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_867a9bb38ff186320ca04cdb1a1383a8f5014476\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\project\HomeApp\BlackWhite\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
-        <dex dex="E:\project\HomeApp\BlackWhite\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.0_c26c9085171bcf9f91fe2c699e965fabad370b46\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -99,6 +90,15 @@
         revision="25.0.2"
         sha1="d38084015027549951cbaea5d5f6fb795cc81151">
         <dex dex="E:\project\HomeApp\BlackWhite\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.1.0_1b664d74f1bfe79fcdc92754cd258b7e2f6ecca0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\project\HomeApp\BlackWhite\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="E:\project\HomeApp\BlackWhite\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.0_c26c9085171bcf9f91fe2c699e965fabad370b46\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -138,21 +138,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="E:\project\HomeApp\BlackWhite\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
-        <dex dex="E:\project\HomeApp\BlackWhite\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.0_4d6275552bf6e63900b61aa9132666e20964b4f5\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="E:\project\HomeApp\BlackWhite\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
         <dex dex="E:\project\HomeApp\BlackWhite\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.0_c02571048fea04b18ac925476c94ba704f0f3bc3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\project\HomeApp\BlackWhite\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="E:\project\HomeApp\BlackWhite\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.0_4d6275552bf6e63900b61aa9132666e20964b4f5\classes.dex" />
     </item>
     <item
         is-multidex="true"

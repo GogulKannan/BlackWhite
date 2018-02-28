@@ -3,7 +3,9 @@ package com.example.gogul.adandroid;
 import android.content.Context;
 import android.media.MediaPlayer;
 import android.net.Uri;
+import android.support.v4.content.ContextCompat;
 import android.util.Log;
+import android.widget.Button;
 import android.widget.Toast;
 
 import org.json.JSONArray;
@@ -21,6 +23,7 @@ import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 
+import static com.example.gogul.adandroid.R.color.colorPrimaryDark;
 import static com.example.gogul.adandroid.StoredObject.*;
 
 /**
@@ -52,7 +55,9 @@ public class StoredObjectFunction implements Serializable {
         so.setTimeLeftHour(System.currentTimeMillis());
         so.setTimeLeftDay(System.currentTimeMillis());
         so.setCoins(50);
-        so.setSoundOn(true);
+        so.setSoundOn(false);
+        int[][] boxDefault = new int[][]{ { 0, 1 }, { 1, 1} };
+        so.setCurrentLearnBox(boxDefault);
         return so;
 
     }
@@ -151,6 +156,31 @@ public class StoredObjectFunction implements Serializable {
             }
         }
         return box;
+    }
+
+    public void setColorForButton(Context c,int a,Button b)
+    {
+        int backgroundColorBlack = R.drawable.inblack;
+        int backgroundColorWhite = R.drawable.inwhite;
+        if(a==1){
+            b.setBackgroundResource(backgroundColorBlack);
+        }
+        else {
+            b.setBackgroundResource(backgroundColorWhite);
+        }
+    }
+
+    // check for win
+    public boolean winYet(int[][] box) {
+        boolean result = true;
+        for (int j = 0; j < box[0].length; j++) {
+            for (int i = 0; i < box.length; i++) {
+                if (box[j][i] == 1)
+                    result = false;
+            }
+        }
+
+        return result;
     }
 
 }

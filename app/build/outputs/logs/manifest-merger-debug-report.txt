@@ -102,12 +102,12 @@ ADDED from E:\project\HomeApp\BlackWhite\app\src\main\AndroidManifest.xml:35:9-8
 		ADDED from E:\project\HomeApp\BlackWhite\app\src\main\AndroidManifest.xml:35:42-78
 	android:name
 		ADDED from E:\project\HomeApp\BlackWhite\app\src\main\AndroidManifest.xml:35:19-41
-activity#com.example.gogul.adandroid.PlayBoxLevelEasy
-ADDED from E:\project\HomeApp\BlackWhite\app\src\main\AndroidManifest.xml:36:9-91
+activity#com.example.gogul.adandroid.PlayBoxLevelLearn
+ADDED from E:\project\HomeApp\BlackWhite\app\src\main\AndroidManifest.xml:36:9-92
 	android:screenOrientation
-		ADDED from E:\project\HomeApp\BlackWhite\app\src\main\AndroidManifest.xml:36:52-88
+		ADDED from E:\project\HomeApp\BlackWhite\app\src\main\AndroidManifest.xml:36:53-89
 	android:name
-		ADDED from E:\project\HomeApp\BlackWhite\app\src\main\AndroidManifest.xml:36:19-51
+		ADDED from E:\project\HomeApp\BlackWhite\app\src\main\AndroidManifest.xml:36:19-52
 activity#com.example.gogul.adandroid.Settings
 ADDED from E:\project\HomeApp\BlackWhite\app\src\main\AndroidManifest.xml:37:9-92
 	android:screenOrientation

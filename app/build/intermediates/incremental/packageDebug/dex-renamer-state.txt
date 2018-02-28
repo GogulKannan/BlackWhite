@@ -1,4 +1,4 @@
-#Sun Feb 25 03:25:25 SGT 2018
+#Thu Mar 01 00:55:27 SGT 2018
 base.0=E\:\\project\\HomeApp\\BlackWhite\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_867a9bb38ff186320ca04cdb1a1383a8f5014476
 renamed.1=classes2.dex
 renamed.0=classes.dex

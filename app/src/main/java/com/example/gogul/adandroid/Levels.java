@@ -32,6 +32,7 @@ public class Levels extends AppCompatActivity {
         sof= new StoredObjectFunction();
         so = (StoredObject) i.getSerializableExtra("MyObject");
         showCoin.setText(String.valueOf(so.getCoins()));
+        //TODO  get from "" load the list according to mode.
         showlist(so.getListLevelDetails());
 
     }
@@ -46,6 +47,8 @@ public class Levels extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 LevelDetails listItem = (LevelDetails) lv.getItemAtPosition(position);
+                //TODO cant click the blocked level.
+                //open playpage acc.
                 Intent intent = new Intent(getApplicationContext(), PlayBoxLevelLearn.class);
                 String levelNumber=listItem.get("LevelNumber");
                 intent.putExtra("levelNumber", levelNumber);

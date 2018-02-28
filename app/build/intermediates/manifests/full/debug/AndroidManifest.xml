@@ -55,7 +55,7 @@
             android:name="com.example.gogul.adandroid.Levels"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.gogul.adandroid.PlayBoxLevelEasy"
+            android:name="com.example.gogul.adandroid.PlayBoxLevelLearn"
             android:screenOrientation="portrait" />
         <activity
             android:name="com.example.gogul.adandroid.Settings"
