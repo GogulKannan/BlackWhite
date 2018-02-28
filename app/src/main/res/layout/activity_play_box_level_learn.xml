@@ -153,7 +153,7 @@
             android:gravity="center"
             android:textColor="@color/colorPrimaryDark"
             android:onClick="coinClick"
-            android:textSize="25dp"
+            android:textSize="20dp"
             android:id="@+id/textView6"
             >
         </TextView>
@@ -170,7 +170,7 @@
             android:gravity="center"
             android:textColor="@color/colorPrimaryDark"
             android:onClick="coinClick"
-            android:textSize="25dp"
+            android:textSize="20dp"
             android:id="@+id/textView5">
         </TextView>
 
@@ -187,7 +187,7 @@
             android:gravity="center"
             android:textColor="@color/colorPrimaryDark"
             android:onClick="coinClick"
-            android:textSize="25dp"
+            android:textSize="20dp"
             android:id="@+id/textView4"
             >
         </TextView>
@@ -203,7 +203,7 @@
             android:gravity="center"
             android:textColor="@color/colorPrimaryDark"
             android:onClick="coinClick"
-            android:textSize="25dp"
+            android:textSize="20dp"
             android:id="@+id/textView3">
         </TextView>
     </android.support.v7.widget.LinearLayoutCompat>
