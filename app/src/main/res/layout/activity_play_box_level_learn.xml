@@ -68,16 +68,9 @@
 
     </RelativeLayout>
 
-    <android.support.v7.widget.LinearLayoutCompat
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-
-
-    </android.support.v7.widget.LinearLayoutCompat>
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="30px"
+        android:layout_height="70px"
         />
 
     <android.support.v7.widget.LinearLayoutCompat

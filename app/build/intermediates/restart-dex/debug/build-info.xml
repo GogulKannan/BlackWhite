@@ -5,9 +5,8 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="398116364916449"
-    token="-8504305474150625831"
-    verifier="COMPATIBLE" >
+    timestamp="398300672860809"
+    token="-8504305474150625831" >
 
     <task
         name="javac"
@@ -21,10 +20,6 @@
     <task
         name="verifier"
         duration="0" />
-
-    <artifact
-        location="E:\project\HomeApp\BlackWhite\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-        type="RESOURCES" />
 
     <build
         timestamp="396713311259107"
@@ -50,11 +45,12 @@
             type="DEX" />
     </build>
     <build
-        timestamp="398116364916449"
+        timestamp="398266120082297"
         verifier="COMPATIBLE" >
         <artifact
             location="E:\project\HomeApp\BlackWhite\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
             type="RESOURCES" />
     </build>
+    <build timestamp="398300672860809" />
 
 </instant-run>
